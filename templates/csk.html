@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body
+        {
+            background-color: yellow;
+        }
+        #a1
+        {
+            background-color: blue;
+            color: ghostwhite;
+            padding: 10px;
+        }
+        #a2
+        {
+            background-color: aliceblue;
+            color: black;
+            padding: 10px;
+            text-decoration: none;
+            margin: 10px;
+            border: 8px red solid;
+            border-radius: 10px;
+
+        }
+        #a2:hover,#a3:hover
+        {
+            background-color: black;
+            color: white;
+        }
+        #a3
+        {
+            background-color: aliceblue;
+            color: black;
+            padding: 10px;
+            text-decoration: none;
+            margin: 10px;
+            border: 8px red solid;
+            border-radius: 10px;
+            
+        }
+        #a4
+        {
+            background: rgb(235, 132, 8);
+            color: aqua;
+            padding: 10px;
+            margin: 30px;
+            font-size: 20px;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        }
+        #a5
+        {
+            background: rgb(163, 60, 111);
+            color: rgba(238, 255, 0, 0.952);
+            padding: 10px;
+            margin: 30px;
+            font-size: 20px;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        }
+        
+        
+    </style>
+</head>
+<body>
+    <center>
+        <h1 id="a1">This is a  CSK Team</h1>
+        <a id="a2" href="{% url 'cricket' %}">Go to Home</a>
+        <a id="a3" href="{% url 'rcb:rcb' %}">Go to RCB Team</a>
+        <p id="a4">Chennai Super Kings (CSK) is a franchise cricket team based in Chennai, Tamil Nadu, India, which has played in the Indian Premier League (IPL) since the first edition of the tournament in 2008. They were one of ten teams to compete in the 2022 Indian Premier League.[1] The Super Kings have previously lifted the IPL title four times (in 2010, 2011, 2018 and 2021)[2][3] and were the defending champions in 2022.</p>
+        <p id="a5">The season was the first time since the inaugural season of the tournament that Suresh Raina was not a member of the team as he was not picked in the mega auction. Part way through the season Ravindra Jadeja resigned as the team's captain, with MS Dhoni, the side's long-term captain, taking back the position.[4][5]</p>
+    </center>
+</body>
+</html>

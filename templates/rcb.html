@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=<device-width>, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body
+        {
+            background-color: aqua;
+        }
+        #a1
+        {
+            background-color: red ;
+            color: white;
+            padding: 10px;
+        }
+        #a2
+        {
+            background-color:rgb(233, 13, 13);
+            color: white;
+            border:5px red solid;
+            border-radius: 10px;
+            text-decoration: none;
+            padding: 10px;
+            margin: 10px;
+        }
+        #a3
+        {
+            background-color: white;
+            color: red;
+            padding: 10px;
+            font-size: 20px;
+        }
+        #a4
+        {
+            background-color:rgb(235, 12, 12);
+            color: rgb(243, 239, 239);
+            border:5px red solid;
+            border-radius: 10px;
+            text-decoration: none;
+            padding: 10px;
+            margin: 10px;
+        }
+        #a4:hover,#a2:hover
+        {
+            background-color:rgb(20, 20, 20);
+            color: rgb(9, 162, 201);
+        }
+        #a5
+        {
+            background-color: white;
+            color: black;
+            padding: 10px;
+            margin: 10px;
+            font-size: 20px;
+        }
+    </style>
+</head>
+<body>
+    <center>
+        <h1 id="a1">This is a RCB Team</h1>
+        <a id="a2" href="{% url 'cricket' %}">Go to Home</a>
+        <a id='a4' href="{% url 'csk:csk' %}">Go to CSK Team</a>
+        <p id="a3">The 2022 season was the 15th season for the IPL cricket franchise Royal Challengers Bangalore based in Bangalore, Karnataka , India. They were one of the ten teams to compete in the 2022 Indian Premier League.[1][2] The team is captained by Faf Du Plessis,[3] and coached by Sanjay Bangar.[4]</p>
+        <p id="a5">Sachin Baby, Rajat Patidar, Tim David, Suyash Prabhudessai, Devdutt Padikkal, Dan Christian, Pavan Deshpande, Daniel Sams, Shahbaz Ahmed, Washington Sundar, AB de Villiers (Retired), K. S. Bharat, Mohammed Azharuddeen, Josh Philippe, Finn Allen, Yuzvendra Chahal, Adam Zampa, Harshal Patel, Kane Richardson, Scott Kuggeleijn, Dushmantha Chameera, Navdeep Saini, Kyle Jamieson, Akash Deep, George Garton.</p>
+        
+    </center>
+</body>
+</html>

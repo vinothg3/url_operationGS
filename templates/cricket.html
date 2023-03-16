@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Indian cricket</title>
+    <style>
+        body
+        {
+            background-color:black;
+        }
+        #a1
+        {
+            background-color: aqua;
+            color: brown;
+            padding: 10px;
+            text-shadow: 8px 5px 5px blue;
+
+        }
+        #a2,#a4
+        {
+            color: white;
+        }
+        #a3,#a5
+        {
+            color: chartreuse;
+            text-decoration: none;
+        }
+        #a5:hover,#a3:hover
+        {
+            color: rgb(12, 26, 221);
+            text-decoration: none;
+        }
+        #maq
+        {
+            color: white;
+            text-shadow: 400px 0px 3px chartreuse;
+            
+        }
+    </style>
+    
+</head>
+<body>
+    <center>
+        
+        <h1 id="a1">INDIAN CRICKET TEAM LIST</h1>
+        <marquee id="maq">THIS WEB SITE IS INDIAN CRICKET TEAMS LIST</marquee>
+
+        <h1 id="a2">CHENNAI SUPER KING <a id="a3" href="{% url 'csk:csk' %}">go to csk team --></a></h1>
+        <h1 id="a4">ROYAL CHALLENGERS BANGALORE <a id="a5" href="{% url 'rcb:rcb' %}">go to rcb team --></a></h1>
+    </center>
+</body>
+</html>
